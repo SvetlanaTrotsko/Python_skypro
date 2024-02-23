@@ -1,4 +1,4 @@
-def area_of_square(square_side: int):
+def area_of_square(square_side: float):
     area = float(pow(square_side, 2))
     return area
 square_side = float(input("Введите число: "))
