@@ -1,5 +1,7 @@
-def area_of_square(square_side: float):
+import math
+square_side = float(input("Введите число: "))
+def area_of_square(square_side):
     area = float(pow(square_side, 2))
     return area
-square_side = float(input("Введите число: "))
-print(f"Площадь квадрата со стороной {square_side} равна {area_of_square(square_side)}")
+
+print(f"Площадь квадрата со стороной {square_side} равна {math.ceil(area_of_square(square_side))}")
